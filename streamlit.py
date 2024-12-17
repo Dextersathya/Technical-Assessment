@@ -7,7 +7,7 @@ import os
 # Create an inference client
 CLIENT = InferenceHTTPClient(
     api_url="https://detect.roboflow.com",
-    api_key="API_key"  # Replace with your actual API key
+    api_key="KToDYINoPms2su0Tzxtj"  # Replace with your actual API key
 )
 
 # Function to draw bounding boxes on the image
@@ -53,7 +53,9 @@ if uploaded_image is not None:
     image_with_boxes = draw_boxes(image.copy(), predictions)
     
     # Display the image with bounding boxes
-    st.image(image_with_boxes, caption="Processed Image with Bounding Boxes", use_column_width=True)
+
+    st.image(image_with_boxes, caption="Processed Image with Bounding Boxes", use_container_width=True)
+
 
     # Convert the image to bytes for download
     img_byte_arr = io.BytesIO()
