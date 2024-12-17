@@ -1,0 +1,13 @@
+train: /content/dataset/train
+val: /content/dataset/valid
+test: /content/dataset/test
+
+nc: 1
+names: ['Rajinikanth']
+
+roboflow:
+  workspace: sathya-u
+  project: rajinikanth
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sathya-u/rajinikanth/dataset/2
