@@ -1,0 +1,4 @@
+ReLU (Rectified Linear Unit) is a simple activation function used in deep learning. 
+It converts all negative numbers to zero and keeps positive numbers unchanged.
+This helps the model learn faster by preventing the vanishing gradient problem, allowing gradients to pass through more effectively. 
+ReLU is widely used in convolutional neural networks (CNNs) due to its efficiency and ability to improve learning performance.

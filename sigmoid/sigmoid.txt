@@ -1,0 +1,10 @@
+The Sigmoid activation function takes any input and outputs a value between 0 and 1.
+ This makes it especially useful for tasks like binary classification, where the goal is to predict one of two possible outcomes. 
+ The output can be interpreted as the probability that something belongs to a particular class,
+  making it ideal for models like logistic regression that deal with probabilities.
+
+
+
+
+
+
